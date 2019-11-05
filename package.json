@@ -1,0 +1,24 @@
+{
+  "name": "yarn-pkg-version-diff",
+  "version": "0.0.1",
+  "description": "Simple utility to determine if specific yarn package(s) have been updated",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf build && tsc"
+  },
+  "author": "Iain Kettles <iain@framer.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {}
+}

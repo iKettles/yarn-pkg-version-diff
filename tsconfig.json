@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["dom", "es2015"],
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "build",
+    "strict": true,
+    "strictNullChecks": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "build/",
+    "node_modules/",
+    "src/**/__mocks__/",
+    "src/**/__fixtures__/",
+    "src/**/*.test.ts"
+  ]
+}
