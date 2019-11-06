@@ -1,14 +1,15 @@
 {
   "name": "yarn-pkg-version-diff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple utility to determine if specific yarn package(s) have been updated",
-  "main": "index.js",
+  "main": "build/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "jest",
-    "build": "rm -rf build && tsc"
+    "build": "rm -rf build && tsc",
+    "prepublish": "yarn build"
   },
   "author": "Iain Kettles <iain@framer.com>",
   "license": "MIT",
