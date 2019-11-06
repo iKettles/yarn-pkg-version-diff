@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "Simple utility to determine if specific yarn package(s) have been updated",
   "main": "build/index.js",
+  "bin": {
+    "yarn-pkg-version-diff": "./build/index.js"
+  },
   "directories": {
     "test": "test"
   },
