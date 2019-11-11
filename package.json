@@ -1,6 +1,6 @@
 {
   "name": "yarn-pkg-version-diff",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple utility to determine if specific yarn package(s) have been updated",
   "main": "build/yarn-pkg-version-diff.js",
   "bin": {
